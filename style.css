@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SN Pro", sans-serif;
+}
+
+body {
+    background-image: url('coolbackgrounds-particles-stellar.png');
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Username {
+    font-size: 2rem;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.Password {
+    font-size: 2rem;
+    justify-content: center;
+    display: flex;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+button {
+    font-size: 1.5rem;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    height: 50px;
+}
+
+p {
+    font-size: 1.2rem;
+    justify-content: center;
+    display: flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
